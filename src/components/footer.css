@@ -1,0 +1,42 @@
+footer {
+  background-color: #f0f9f5;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer .inner-footer {
+  margin: 0% 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: gray;
+  text-align: start;
+  font-size: 14px;
+}
+
+footer .inner-footer .box h3 {
+  color: rgb(81, 81, 81);
+  margin: 10px 0;
+}
+
+footer .inner-footer .box a {
+  display: block;
+  color: gray;
+}
+
+footer .inner-footer .box a:hover {
+  color: var(--myBlue);
+  text-decoration: underline;
+}
+
+footer h4 {
+  font-size: 22px;
+  text-align: center;
+  border-top: 0.1px solid rgba(255, 255, 255, 0.2);
+}
+
+footer h4 span {
+  color: var(--myBlue);
+  margin: 0 16px;
+}

@@ -1,0 +1,68 @@
+.register,
+.forgot-password,
+.login-form {
+  max-width: 400px;
+  margin: 4.1% auto;
+  padding: 20px;
+  border: 1px solid #271f1f;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.register {
+  margin: 1.5% auto;
+}
+.forgot-password {
+  margin: 10.7% auto;
+}
+.register h3,
+.login-form h3{
+  text-align: center;
+}
+
+.register label,
+.forgot-password label,
+.login-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+.register input,
+.forgot-password input,
+.login-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 4px;
+  box-sizing: border-box;
+  border: 1px solid;
+}
+.register button,
+.forgot-password button,
+.login-form button {
+  background-color: #7acdac;
+  color: #2f2f2f;
+  margin: 10px 0;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+.register button:hover,
+.forgot-password button:hover,
+.login-form button:hover {
+  background-color: #31979e;
+  color: #4f8851;
+}
+.login-form .forget {
+  display: flex;
+  justify-content: space-around;
+}
+.forgot-password a,
+.login-form .forget a {
+  color: rgb(1, 0, 0);
+  margin: 15px 1%;
+}
+.forgot-password a:hover,
+.login-form .forget a:hover {
+  color: var(--myBlue);
+  text-decoration: underline;
+}

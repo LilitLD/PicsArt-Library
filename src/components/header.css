@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333
+}
+
+.leftside {
+  display: flex;
+  align-items: center;
+}
+
+.rightside {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.login-register-container a {
+  text-decoration: none;
+  color: white;
+}
+
+.login-register-container {
+  display: flex;
+  gap: 10px;
+}
